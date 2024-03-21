@@ -133,7 +133,7 @@ export default function Home() {
 	const { latitude, longitude } = usePosition();
 	const [data, setData] = useState<WeatherData | null>(null);
 	const [language, setLanguage] = useState<string>(
-		navigator.language.split("-")[0]
+		window.navigator.language.split("-")[0]
 	);
 
 	useEffect(() => {
