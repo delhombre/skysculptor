@@ -36,13 +36,13 @@ const usePosition = (): Position => {
 			maximumAge: 0,
 		};
 
-		const watchId = navigator.geolocation.watchPosition(
+		const watchId = window.navigator.geolocation.watchPosition(
 			handleSuccess,
 			handleError,
 			options
 		);
 
-		return () => navigator.geolocation.clearWatch(watchId);
+		return () => window.navigator.geolocation.clearWatch(watchId);
 	}, []);
 
 	return position;
