@@ -70,7 +70,7 @@ const getData = async (
 	const options = {
 		method: "GET",
 		headers: {
-			"X-RapidAPI-Key": process.env.RAPIDAPI_KEY || "",
+			"X-RapidAPI-Key": "799e4bb9efmsh862109dfce61689p16d729jsnd0fd2f987aef",
 			"X-RapidAPI-Host": "weatherapi-com.p.rapidapi.com",
 		},
 	};
