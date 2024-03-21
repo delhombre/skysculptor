@@ -275,7 +275,7 @@ export default function Home() {
 												<div className="text-sm mt-auto">
 													<p className="grid grid-cols-2">
 														<span className="text-neutral-200">
-															Aujourdh'ui
+															{"Aujourdh'ui"}
 														</span>
 														<span className="font-bold">Max. : 13°</span>
 													</p>
