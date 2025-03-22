@@ -34,7 +34,7 @@ export function AirQualityCard({
 					<path d="M12 22v-3"></path>
 					<path d="M16 22v-4"></path>
 				</svg>
-				Qualité de l'Air
+				Qualité de l&apos;Air
 			</h2>
 			<div className="text-center mb-3">
 				<div className="text-5xl font-medium mb-2">{index}</div>
